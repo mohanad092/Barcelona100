@@ -1,0 +1,1244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    }
+    
+    
+body{
+    
+    height: 6400px;
+    background: url(../images/3802553.jbg.webp) ,rgb(12, 12, 46);
+    background-position: top , 100% 670px;
+    background-size: 100% 700px;
+    position: relative;
+    background-repeat:no-repeat ;
+
+}
+
+/* -----------------------header----------------------------- */
+    
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(131, 131, 184);
+    left: 0;
+    top: 0;
+    position: fixed;
+    opacity: 0.8;
+    z-index: 90;
+
+}
+
+.qq{
+    margin-left: 15px;
+}
+
+.header-overley1{
+    background-color: rgb(107, 29, 29);
+    height: 3px;
+    width: 50px;
+    margin-top: -15px;
+}
+
+.header-overley2{
+   background-color: rgb(107, 29, 29);
+    height: 3px;
+    width: 50px;
+    margin-top: -15px;
+    margin-left: 5px;
+    transition: 0.7s;
+    
+    opacity: 0;
+    
+}
+
+.header-overley3{
+    background-color: rgb(107, 29, 29);
+    height: 3px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    transition: 0.7s;
+    opacity: 0;
+     
+}
+    
+.list  li  a:hover .header-overley2{
+    opacity: 1;
+   
+}
+
+.list  li  a:hover .header-overley3{
+    opacity: 1;
+     
+ }
+
+
+.list {
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+
+}
+.list li {
+    display: inline-block;
+    margin-right: 40px;
+    line-height: 60px;
+    transition: 0.7s;
+
+}
+
+.list  li  a  {
+
+    text-decoration: none;
+    color: rgb(154, 14, 14);
+    font-size: 20px;
+    
+}
+
+.head{
+    height: 60px;
+    width: 120px;
+    margin-left: 85px;
+    position: absolute;
+    z-index: 2;
+}
+    
+.head2{
+    height: 60px;
+    width: 200px;
+    margin-left:60px ;
+    position: absolute;
+    
+}
+    
+.uheader{
+    height: 60px;
+    width: 100%;
+    z-index: -1;
+}
+
+/* -----------------------------first page-------------------------- */
+
+.start{
+    height: 150px;
+    width: 500px;
+    background-color: rgb(108, 108, 235);
+    margin: auto;
+    margin-top: 300px;
+    opacity: 0.7;
+
+}
+
+.btn{
+
+    height: 50px;
+    width: 200px;
+   
+    margin-top: 30px;
+    float: left;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: none;
+    color: white    ;
+    border-radius: 20px;
+    line-height: 50px;
+    text-decoration: none
+
+}
+
+
+
+.btn1{
+    
+    background-color: rgb(167, 65, 65);
+    margin-left: 235px;
+
+
+}
+.btn1:hover{
+    background-color: rgb(61, 59, 122);
+}
+
+
+.btn2{
+   
+    background-color:rgb(65, 73, 167) ;
+    margin-left: 60px;
+
+}
+.btn2:hover{
+    background-color: rgb(122, 59, 59);
+}
+
+.account{
+    float: left;
+    margin-top:100px ;
+    margin-left: -350px;
+    font-size: 29px;
+    text-decoration: none;
+    color: white;
+
+}
+.info{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    font-size: 30px;
+    margin-right: 600px;
+    
+}
+p{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+/* -----------------------------------welcome------------------------------- */
+
+.welcome{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 270px;
+}
+
+.welcome-head{
+    color:rgb(147, 143, 143);
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.u-welcome{
+    height: 4px;
+    width: 120px;
+    background-color:rgb(71, 185, 185);
+    margin: auto;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+
+.welcome-contant{
+    position: relative;
+    
+}
+.welcome-divs{
+    float: left;
+    margin-top: 60px;
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    
+}
+
+.welcome-contant .div1{
+    margin-left: 100px;
+}
+
+.welcome-img{
+    float: left;
+    height: 110px;
+    width: 110px;
+    background-color: burlywood;
+    border-radius: 50%;
+    border: 6px solid rgb(12, 12, 46);
+    position: absolute;
+    background-size: cover;
+    z-index: 1;
+}
+
+.welcome-info{
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    height: 200px;
+    width: 310px;
+    background-color: rgb(21, 26, 81);
+    text-align: center;
+    transition: 0.6s;
+}
+
+.welcome-contant .img1{
+    background-image: url(../images/mini_2020-06-16-BARCELONA-LEGANES-39.webp);
+    background-position: center;
+    
+}
+
+.welcome-contant .img2{
+    background-image: url(../images/231756-إنطلاق-إستعدادات-برشلونة.jpg);
+    background-position: center;
+}
+
+.welcome-contant .img3{
+    background-image: url(../images/emarat-news_2022-09-20_03-05-23_180829.jpeg);   
+    background-position: bottom;
+}
+
+.welcome-info i{
+    display: inline-block;
+    font-size: 30px;
+}
+
+.welcome-info h2{
+    display: inline-block;
+    font-size: 28px;
+    padding-left: 10px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.welcome-info p{
+    width: 220px;
+    margin-left: 50px;
+}
+
+.welcome-info:hover{
+    color: rgb(196, 195, 195);
+}
+
+.welcome-info::after{
+
+    position: absolute;
+    content: "";
+
+    bottom: 0;
+    right: 0;
+
+    height: 0;
+    width: 0;
+
+    background-color: rgb(51, 51, 80);
+    opacity: 0;
+    transition: 0.6s;
+
+}
+
+.welcome-info:hover::after{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+
+/* ------------------------------players-------------------------- */
+
+.players{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(24, 20, 75);
+    margin-top: 100px;
+}
+
+.players-head{
+    text-align: center;
+    color:rgb(197, 197, 197);
+}
+
+.u-players{
+    height: 4px;
+    width: 90px;
+    background-color:rgb(71, 185, 185);
+    margin: auto;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+
+.players-contant{
+    position:absolute;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.players-divs{
+    height: 300px;
+    width: 100%;
+    
+}
+
+.players-card{
+    height: 250px;
+    width: 200px;
+    float: left;
+    margin-left: 230px;
+    border-radius: 20px;
+    margin-top: 40px;
+    transition: 0.6s;
+    background-size: cover;
+    background-position: center;
+}
+
+.players-card img{
+    border-radius: 20px;
+    transition: 0.6s;
+    position: absolute;
+}
+
+.players-info{
+    position: absolute;
+    text-align: center;
+    color: rgb(217, 217, 217);
+    margin-top:110px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+    z-index: 10;
+
+}
+
+.players-info h3{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.players-info i{
+    color: rgb(211, 211, 211);
+    font-size: 20px;
+}
+
+.players-card:hover .imgg{
+    opacity: 0.5;
+}
+
+.players-card:hover .players-info{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* -----------------------matches-------------------- */
+
+.matches{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(12, 12, 46);
+}
+
+.matches-container{
+    position: relative;
+}
+
+.matches-head{
+    text-align: center;
+    color:rgb(197, 197, 197);
+    margin-top: 20px;
+
+}
+
+.u-matches{
+    height: 4px;
+    width: 100px;
+    background-color:rgb(71, 185, 185) ;
+    margin: auto;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+
+.matches-contant{
+    height: 100%;
+}
+
+.matches-divs{
+    height: 20%;
+    /* background-color: rgb(21, 26, 81); */
+    margin-top: 30px;
+}
+
+.matches-info{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 40px;
+    background-color: rgb(26, 21, 66);
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.matches-divs .info1{
+    padding-top: 10px;
+}
+
+.matches-info span{
+    font-size: 55px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: rgb(196, 193, 193);
+    
+}
+
+.matches-info h3{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 40px;
+    color: rgb(196, 193, 193);
+}
+
+.matches-divs .info2{
+    text-align: center;
+}
+
+.matches-divs .info2 h2{
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(196, 193, 193);
+}
+
+.matches-info button{
+    height: 50px;
+    width: 140px;
+    font-size: 21px;
+    margin-top: 40px;
+    margin-left: 55px;
+    border-radius: 30px;
+    background-color: rgb(79, 79, 127);
+}
+
+.matches-info::after{
+    position: absolute;
+    content: "";
+
+    bottom: 0;
+    left: 50%;
+
+    height: 0;
+    width: 0;
+
+    opacity: 0;
+    background-color: rgb(91, 91, 91);
+    transition: 0.4s;
+
+}
+
+.matches-info:hover::after{
+    height: 100%;
+    width: 50%;
+    opacity: 0.3;
+    border-bottom-right-radius: 40px;
+}
+
+.matches-info::before{
+    position: absolute;
+    content: "";
+
+    bottom: 0;
+    right: 50%;
+
+    height: 0;
+    width: 0;
+
+    opacity: 0;
+    background-color: rgb(91, 91, 91);
+    transition: 0.4s;
+
+}
+
+.matches-info:hover::before{
+    height: 100%;
+    width: 50%;
+    opacity: 0.3;
+    border-top-left-radius: 40px;
+}
+
+/* ----------------------------legend----------------------- */
+
+.legend{
+    background-color: rgb(21, 25, 68);
+    width: 100%;
+    height: 600px;
+    margin-top: 150px;
+    position: relative;
+}
+
+.legend-head{
+    width: 100%;
+    height: 50px;
+    
+}
+
+.h2-legend{
+    text-align: center;
+    color:rgb(173, 171, 171) ;
+    padding-top: 10px;
+}
+
+.u-legend{
+    height: 3px;
+    width: 130px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+.legend-p{
+
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 30px;
+    height: 500px;
+    width: 600px;
+
+}
+
+.legend-p h2{
+    margin-left: 20px;
+    font-size: 35px;
+    color: white;
+    
+}
+
+.legend-p h4{
+    color: rgb(190, 190, 190);
+    font-size: 20px;
+    margin-top: 20px;
+    
+    
+}
+
+.legend-p p{
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    color: rgb(158, 158, 158);
+}
+
+.legend-img{
+    margin-top: 30px;
+    margin-right: 100px;
+    float: right;
+    height: 500px;
+    width: 400px;
+    position: relative;
+}
+
+.leo img{
+    height: 450px;
+    width: 400px;
+}
+
+
+.leo div{
+    
+    height: 5px;
+    width: 40px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 70px;
+    border-radius: 7px;
+    
+}
+
+.d1{
+    background: red;
+}
+
+.d2{
+   background-color: grey;
+   transition: 0.7s;
+}
+
+.d2:hover{
+    background-color: red;
+    
+}
+
+/* ----------------------------------legend awards-------------------------- */
+
+.legend-awards{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/lionel-messi-01.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.9);
+
+
+}
+
+.legend-overley{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.legend-item{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    font-size: 25px;
+    color: rgb(220, 217, 217);
+    
+    text-align: center;
+    
+}
+
+.legend-div{
+    
+    float: left;
+    
+    margin-top: 100px;
+    margin-left: 230px;
+    
+}
+
+/* -----------------------------store------------------------- */
+
+.store{
+    background-color: rgb(21, 25, 68);
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.store-head{
+    width: 100%;
+    height: 70px;
+    
+    
+}
+
+.store-head h2{
+    text-align: center;
+    color: rgb(173, 171, 171);
+    padding-top: 30px;
+
+}
+
+.u-store{
+    height: 3px;
+    width: 80px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 6px;
+}
+
+.store-contant{
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.store-item{
+    height: 550px;
+    width: 25%;
+    float: left;
+    margin-left: 75px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.store-info{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.store-info img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.T-S{
+    height: 235px;
+    width: 235px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -233px;
+    margin-left: 52px;
+}
+
+.T-S::after{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0;
+
+    bottom: 0;
+    right: 0;
+
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.pic-overley1:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+    background-image: url(../images/FeC-6LMXoAA3AvE.jpg);
+    background-size: cover;
+
+    opacity: 1;
+}
+
+.pic-overley2:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+    background-image: url(../images/mini_FCBarcelona-LiverpoolFC3-0AnadaSemifinalsUEFAChampionsLeague1819_pic_2019-05-01barcelona-liverpool50.jpg);
+    background-size: cover;
+    
+    opacity: 1;
+}
+
+.pic-overley3:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+    background-image: url(../images/0_GettyImages-1602005163.webp);
+    background-size: cover;
+
+    opacity: 1;
+}
+
+.store-p{
+    height: 320px;
+    width: 230px;
+    background-color: rgb(35, 34, 92);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.store-p h2{
+    padding-top: 10px;
+}
+
+.store-p input{
+    margin-right: 10px;
+    margin-top: 20px;   
+}
+
+.store-p span{
+    color: rgb(180, 180, 180);
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.pieces input{
+    width: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.cart{
+   padding: 10px 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgb(169, 160, 160);
+    border-radius: 20px;
+}
+
+.store-overley{
+   
+    height: 320px;
+    width: 230px;
+    position: absolute;
+    margin-left:37px ;
+    bottom: 0;    
+    border-radius: 20px;
+}
+
+/* ----------------------------trophy---------------------------- */
+
+.trophy{
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/mini_all-convos.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.trophy-overley{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.trophy-container{
+    width: 100%;
+    margin: auto;
+}
+
+.trophy-contant{
+    overflow: hidden;
+    margin: auto;
+    width: 90%;
+}
+
+.trophy-item{
+    float: left;
+    height: 340px;
+    width: 250px;
+    margin-left: 70px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.trophy-item img{
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    margin-top: 30px;
+    
+}
+
+.trophy-item h2{
+    padding-top: 10px;
+    font-weight: bold;
+    color: rgb(188, 187, 187);
+}
+
+.trophy-item p{
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+}
+
+.manage{
+    height: 400px;
+    width: 100%;
+    background-color:rgb(12, 12, 46) ;
+    position: relative;
+
+}
+
+.manage-title{
+    width: 100%;
+    height:70px ;
+    margin-top: 40px;
+    
+}
+
+.manage-title h2{
+    text-align: center;
+    color:rgb(173, 171, 171) ;
+    padding-top: 20px;
+}
+
+.under-manage{
+    height: 3px;
+    width: 120px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.manage-container{
+    margin: auto;
+    width: 80%;
+    margin-top: 80px;
+}
+
+.manage-contant{
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.manage-item{
+    display: block;
+    float: left;
+    width: 28%;
+    background-color: #001f58;
+    padding: 17px 13px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.manage-item::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #1f1e1e;
+    opacity: 0;
+    transition: 0.7s;
+    
+}
+
+.manage-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    visibility: visible;
+}
+
+.cv1{
+    margin: 0 7%;
+}
+
+.manage-img{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.manage-img img{
+    width: 100%;
+}
+
+.manage-overley{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+
+.manage-item:hover .manage-overley{
+    visibility: visible;
+    opacity: 1;
+}
+
+.manage-overley a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #71a3ff;
+    color: #fff;
+    margin-left: auto;
+}
+
+.manage-overley a i{
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.fab{
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.manage-info h3{
+color: rgb(72, 72, 255);
+padding: 10px 0px;
+}
+
+.manage-info span{
+    color: white;
+}
+
+.news{
+    height: 600px;
+    width: 100%;
+    background-image:url(../images/VO180820A19034.jpg) ;
+    background-size: cover;
+    margin-top: 200px;
+    position: relative;
+}
+
+.news-overley{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.news-title{
+    width: 100%;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.news-title h2{
+    text-align: center;
+    color: rgb(173, 171, 171);
+    padding-top: 20px;
+}
+
+.under-news{
+    margin: auto;
+    height: 3px;
+    width: 90px;
+    background-color: aqua;
+    margin-top: 3px;
+}
+
+.news-container{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.news-contant{
+    overflow: hidden;
+    /* background-color: rgb(4, 4, 73); */
+    height: 500px;
+    
+}
+
+.news-item{
+    float: left;
+    width: 28%;
+    background-color: rgb(171, 168, 168);
+    position: relative;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.news-item::after{
+    position: absolute;
+    content: "";
+
+    height: 0;
+    width: 100%;
+
+    top: 50%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    opacity: 0;
+
+    transition: 1s;
+}
+
+.news-item:hover::after{
+    height: 50%;
+    width: 100%;
+
+    opacity: 0.6;
+
+}
+
+
+.news-item::before{
+    position: absolute;
+    content: "";
+
+    height: 0;
+    width: 100%;
+
+    bottom: 50%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    opacity: 0;
+
+    transition: 1s;
+}
+
+.news-item:hover::before{
+    height: 50%;
+    width: 100%;
+
+    opacity: 0.6;
+
+}
+
+.cv2{
+    margin: 0 8%;
+}
+
+.news-pic{
+    width: 100%;
+}
+
+.news-pic img{
+    border-radius: 20px;
+}
+    
+
+.news-info{
+    padding: 20px;
+}
+
+.news-info i{
+    margin-left: 25px;
+    color: rgb(20, 20, 89)
+}
+
+.news-info h3{
+    font-size: 27px;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+.news-info p{
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.news-info button{
+    
+    height: 50px;
+    width: 100px;
+    border-radius:20px ;
+    background-color: grey;
+  
+}
+
+.news-info button a{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/983164.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    position: relative;
+}
+
+.footer-contant{
+   position: absolute;
+   margin-top: 100px;
+   margin-left: 100px;
+}
+
+.footer-contant i{
+    height: 10px;
+    font-size: 40px;
+    margin-left: 20px;
+    border: 10px solid white;
+    border-radius: 50%;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-contant p{
+    padding-top: 30px;
+    color: white;
+}
+
+.footer-contant i:hover{
+    opacity: 0.6;
+}
+
